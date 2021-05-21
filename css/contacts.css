@@ -3,16 +3,19 @@
 .imgBannerContacts {
     background-image: url(../imagen/banners/imgContact.jpg);
 }
-
+.contactos{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 10em;
+}
 .c_cajaIzquierda {
     width: 50%;
-    float: left;
     overflow: hidden;
 }
 
 .c_cajaDerecha {
     width: 50%;
-    float: right;
 }
 
 
