@@ -1,0 +1,278 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+/* IMG DE BANNER DE LA PAGINA */
+
+.imgBannerAbout {
+    background-image: url(../imagen/banners/bannerIndex.jpg);
+}
+
+
+/*inicia diseño de texto debajo del banner*/
+
+.general_texto {
+    margin-top: 0.2em;
+    width: 100%;
+    height: auto;
+    background-color: var(--colorBase6);
+}
+
+.potente {
+    color: var(--colorBase2);
+}
+
+.general_texto {
+    padding-top: 5px;
+    font-size: 2em;
+    color: var(--colorBase);
+}
+
+.bs_subtitulo {
+    padding-top: 1em;
+    font-size: 1.1em;
+    text-align: center;
+    color: var(--colorTexto);
+}
+
+.informacion_nosotros {
+    width: 45%;
+    font-size: 0.9em;
+    text-align: center;
+    color: var(--colorTextoFuerte);
+    padding-bottom: 3em;
+}
+
+
+/*iamgenes debajo del texto de la empresa*/
+
+.imagen_nosotros {
+    display: flex;
+    justify-content: space-between;
+}
+
+.img_nosotros {
+    width: 48%;
+    height: 40em;
+}
+
+.img_nosotros img {
+    width: 100%;
+    height: 100%;
+}
+
+
+/* SECCIÓN DE SERTIFICADOS DE LA EMPRES */
+
+.rm_linea {
+    width: 100%;
+    height: 2px;
+    margin-bottom: 50px;
+    background-color: var(--colorTexto);
+}
+
+.cajaDeSertificados {
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+
+.sertificado {
+    width: 48%;
+    float: left;
+}
+
+.imgS1 {
+    width: 200px;
+    display: block;
+    margin: auto;
+}
+
+.imgS2 {
+    width: 350px;
+    display: block;
+    margin: auto;
+}
+
+
+/*debjo de la linea de imagenes*/
+
+.lineaB {
+    width: 80%;
+    height: 2px;
+    margin-bottom: 50px;
+    background-color: var(--colorTexto);
+}
+
+.info_empresa {
+    height: 400px;
+    background-color: var(--colorBase6);
+}
+
+.info_empresa {
+    font-size: 2em;
+}
+
+.info_empresa h2 {
+    color: var(--colorResaltante);
+}
+
+
+/*se cierra debajo de la linea*/
+
+
+/*SEXXION SEL VIDEO*/
+
+.body .video {
+    width: 100%;
+    padding-top: 2em;
+    height: auto;
+    display: flex;
+    flex-flow: column;
+}
+
+.video {
+    padding-top: 5em;
+    font-size: 1em;
+    color: var(--colorTexto);
+}
+
+.lado_2019 {
+    width: 40%;
+    height: auto;
+    float: left;
+    margin-left: 0em;
+}
+
+.lado_2019 p {
+    font-size: 1.8em;
+    color: var(--colorTextoFuerte);
+}
+
+.logopeque {
+    margin-left: 20em;
+    width: 15em;
+    height: 10em;
+}
+
+.año_2019 {
+    font-size: 3.5em;
+    text-align: center;
+}
+
+
+/*videoPRINCIPAL*/
+
+.video_2019 {
+    padding-bottom: 2em;
+    float: right;
+    width: 48%;
+    height: auto;
+}
+
+.video_2019 video {
+    width: 100%;
+}
+
+
+/*videoPRINCIPAL*/
+
+
+/* -------SECCIÓN DE RESPONSIVE-------- */
+
+@media only screen and (max-width:1360px) {
+    .video_2019 {
+        width: 100%;
+        height: auto;
+    }
+}
+
+
+/* ------- SECCIÓN DE RESPONSIBE */
+
+@media only screen and (max-width:767px) {
+    .informacion_nosotros {
+        width: 95%;
+    }
+    .imagen_nosotros {
+        width: 90%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        flex-flow: column;
+    }
+    .img_nosotros {
+        width: 100%;
+        height: auto;
+        margin: 0;
+        padding: 0;
+    }
+    .img_nosotros img {
+        width: 100%;
+        margin-bottom: 2em;
+        height: auto;
+    }
+    .video {
+        width: 100%;
+        height: auto;
+        font-size: 0.9em;
+        color: var(--colorTexto);
+    }
+    .lado_2019 {
+        float: none;
+        width: 95%;
+        margin: auto;
+        height: auto;
+    }
+    .lado_2019 p {
+        text-align: justify;
+    }
+    .año_2019 {
+        font-size: 4em;
+        text-align: center;
+    }
+    .logopeque {
+        display: none;
+    }
+    .video_2019 {
+        display: block;
+        float: none;
+        padding: 0;
+        margin: 0;
+        padding-top: 3em;
+        width: 95%;
+        margin: auto;
+    }
+    /* SECCIÓN DE SERTIFICADOS DE LA EMPRES */
+    .rm_linea {
+        width: 100%;
+        height: 2px;
+        margin-bottom: 15px;
+        background-color: var(--colorTexto);
+    }
+    .cajaDeSertificados {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        flex-flow: column;
+    }
+    .sertificado {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .imgS1 {
+        width: 200px;
+        display: block;
+        margin: auto;
+        padding-bottom: 1em;
+    }
+    .imgS2 {
+        width: 350px;
+        display: block;
+        margin: auto;
+    }
+}

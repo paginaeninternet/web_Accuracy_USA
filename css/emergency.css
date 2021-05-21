@@ -1,0 +1,154 @@
+/* * {
+    box-sizing: border-box;
+} */
+
+.potente {
+    color: var(--colorBase2);
+}
+
+
+/* IMG DE BANNER DE LA PAGINA */
+
+.imgBannerEmergency {
+    background-image: url(../imagen/banners/bannerIndex.jpg);
+}
+
+.emergencia24 {
+    margin-top: 35px;
+    height: 125px;
+    background-color: #b50810;
+    color: white;
+    font-size: 3.5em;
+    text-align: center;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.emergenciaA {
+    padding-top: 5em;
+    padding-bottom: 5em;
+}
+
+.emergencia_izq {
+    width: 30%;
+    height: 300px;
+    position: relative;
+    float: left;
+    background-color: #00355B;
+    padding: 2.5em;
+    color: white;
+    overflow: hidden;
+}
+
+.emergencia_izq>h2 {
+    font-size: 3em;
+}
+
+.emergencia_izq>p {
+    font-size: 2em;
+}
+
+.links_emergencia {
+    padding-top: 1em;
+}
+
+.links_emergencia .llamada_emergencia img {
+    float: left;
+    padding-right: 1em;
+    width: 25px;
+    height: 25px;
+}
+
+.links_emergencia .contact {
+    font-size: 2em;
+}
+
+.links_emergencia a {
+    text-decoration-style: none;
+    color: white;
+}
+
+.emergencia_der {
+    width: 65%;
+    height: 800px;
+    /*background-color: green;*/
+    float: right;
+}
+
+.emergencia_der {
+    color: #272b35;
+}
+
+.imagen_b {
+    width: 100%;
+    height: 500px;
+}
+
+.emergencia_der .imagen_b img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    /*<------- NUEVO METODO*/
+}
+
+.contenido_emergencia {
+    margin-top: 1em;
+}
+
+.contenido_emergencia h2 {
+    font-size: 4em;
+}
+
+.contenido_emergencia p {
+    font-size: 2em;
+}
+
+.mapa_celular {
+    display: none;
+}
+
+
+/* ------- SECCIÓN DE RESPONSIBE */
+
+@media only screen and (max-width:767px) {
+    .emergencia24 {
+        margin-top: 25px;
+        height: 100px;
+        background-color: #b50810;
+        color: white;
+        text-align: center;
+        border-radius: 10px;
+        margin-bottom: 2.5px;
+    }
+    .emergencia24>h1 {
+        font-size: 0.5em;
+    }
+    .emergencia_izq {
+        width: 100%;
+        height: 350px;
+        position: relative;
+        float: none;
+        padding: 1em;
+        overflow: hidden;
+    }
+    .emergencia_der {
+        padding-top: 2em;
+        width: 100%;
+        height: auto;
+        /*background-color: green;*/
+        float: none;
+    }
+    .emergencia_der .imagen_b img {
+        /*display: block;
+        margin: auto;*/
+        width: 100%;
+        height: 275px;
+    }
+    .mapa {
+        display: none;
+    }
+    .mapa_celular {
+        display: inline-block;
+        width: 100%;
+    }
+}

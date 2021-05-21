@@ -1,0 +1,186 @@
+/* IMG DE BANNER DE LA PAGINA */
+
+.imgBannerContacts {
+    background-image: url(../imagen/banners/imgContact.jpg);
+}
+
+.c_cajaIzquierda {
+    width: 50%;
+    float: left;
+    overflow: hidden;
+}
+
+.c_cajaDerecha {
+    width: 50%;
+    float: right;
+}
+
+
+/* SECCION DE FORMULARIO */
+
+.formularioDeContacto {
+    width: 100%;
+    float: left;
+}
+
+.inputDesing {
+    border: none;
+    border-bottom: 1px solid var(--colorBase);
+    outline: none;
+    height: 40px;
+}
+
+.icoFormulario {
+    width: 40px;
+}
+
+.titulo1 {
+    font-size: 3em;
+    margin-top: 1em;
+    color: #151618;
+}
+
+.cajaDatosPersonales {
+    margin-top: 3em;
+    overflow: hidden;
+}
+
+.cajaDatosPersonales input {
+    width: 20em;
+}
+
+.cajaNombre {
+    float: left;
+    width: 300px;
+}
+
+.cajaCorreo {
+    float: right;
+}
+
+.datosSolicitud {
+    width: 100%;
+    margin-top: 3em;
+}
+
+.datosSolicitud input {
+    width: 100%;
+}
+
+.cajaMensaje {
+    margin-top: 5em;
+}
+
+.textoMensaje {
+    color: gray;
+    font-size: 1.3em;
+}
+
+.mensajeRedactado {
+    margin-top: 1em;
+    outline: none;
+    border: none;
+    border: 1px solid var(--colorBase);
+    border-radius: 5px;
+    width: 100%;
+    height: 300px;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-top: 1em;
+    box-sizing: border-box;
+    font-size: 1.7em;
+}
+
+.botonEnviarFormulario {
+    background-color: var(--colorBase);
+    padding: 10px;
+    display: block;
+    width: 100px;
+    color: #ffffff;
+    text-align: center;
+    font-size: 1.5em;
+    border-radius: 100px;
+}
+
+.botonFormulario {
+    margin-top: 3em;
+    margin-bottom: 3em;
+    background: none;
+    color: inherit;
+    border: none;
+    padding: 0;
+    font: inherit;
+    cursor: pointer;
+    outline: inherit;
+}
+
+.mapa_celular {
+    display: none;
+}
+
+.mapa{
+        padding: 4em;
+}
+
+/* Secciónd e configuración mobil */
+
+@media only screen and (max-width:767px) {
+    .c_cajaIzquierda {
+        width: 100%;
+        float: none;
+    }
+    .c_cajaDerecha {
+        width: 100%;
+        float: none;
+    }
+    .cajaFormulario {
+        width: 95%;
+        overflow: hidden;
+    }
+    .imgFormulario {
+        float: none;
+        width: 100%;
+        height: 60em;
+    }
+    .formularioDeContacto {
+        float: none;
+        width: 80%;
+        margin: auto;
+        margin-top: 5em;
+    }
+    .cajaDatosPersonales input {
+        width: 100%;
+    }
+    .cajaNombre {
+        float: none;
+        width: 100%;
+    }
+    .cajaCorreo {
+        float: none;
+        width: 100%;
+    }
+    .mensajeRedactado {
+        font-size: 1.3em;
+    }
+    .botonEnviarFormulario {
+        background-color: rgba(85, 82, 255, 1);
+        padding: 10px;
+        display: block;
+        width: 100px;
+        color: #ffffff;
+        text-align: center;
+        font-size: 1.5em;
+        margin-top: 1em;
+        float: right;
+    }
+
+    .mapa {
+        display: none;
+    }
+    .mapa_celular {
+        display: inline-block;
+        width: 100%;
+        padding-bottom: 2em;
+    }
+
+}

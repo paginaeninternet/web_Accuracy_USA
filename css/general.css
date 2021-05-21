@@ -1,0 +1,84 @@
+/*--------------------------------------
+#  GENERAL CONFIGURATION OF STRUCTURE
+--------------------------------------*/
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+.body100 {
+    width: 100%;
+    height: auto;
+    font-size: 10px;
+}
+
+.body {
+    font-size: 10px;
+    max-width: 1400px;
+    height: auto;
+    margin: auto;
+    box-sizing: border-box;
+}
+
+
+/*--------------------
+#  PALETA DE COLORES
+--------------------*/
+:root {
+    --colorBase: #00355B;
+    --colorBase2: #FFEE01;
+    --colorBase3: #A6937C;
+    --colorBase4: #464646;
+    --colorBase5: #F6F6F6;
+    --colorBase6: #fafafa;
+    --colorResaltante: #DA0202;
+    --colorTexto: #595959;
+    --colorTexto2: #9E9E9E;
+    --colorTextoFuerte: #272b35;
+}
+
+
+/*--------------------------------------
+#  DIMENCIONES DE TIPOGRAFIA
+--------------------------------------*/
+
+:root {
+    --sizeParrafo: 2em;
+    --sizeTitulo: 4em;
+    --sizeSubTitulo: 3em;
+}
+
+
+/*----------------------------
+#  RESPONSIVE DESIGN SECTION
+----------------------------*/
+
+@media only screen and (max-width: 1440px) {
+    /* general configuration of structure */
+    .body {
+        padding-left: 5em;
+        padding-right: 5em;
+    }
+}
+
+@media only screen and (max-width: 1366px) {
+    /* general configuration of structure */
+    .body {
+        font-size: 8px;
+    }
+}
+
+@media only screen and (max-width: 1024px) {}
+
+@media only screen and (max-width: 768px) and (max-width:767px) {
+    .body {
+        font-size: 9px;
+        width: 95%;
+        padding: 0;
+    }
+}
+
+@media only screen and (max-width: 375px) {}
