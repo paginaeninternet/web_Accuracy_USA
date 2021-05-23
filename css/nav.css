@@ -88,7 +88,7 @@
 }
 .box-nav > li > a{
     font-size: 2rem;
-    padding: 0.2rem 1rem;
+    padding: 0.3rem 1.6rem;
     border-radius:2rem;
     color: var(--colorTexto);
 }
@@ -112,11 +112,11 @@
 .submenu{
     display: none;
     position:absolute;
-    width: 20rem;
+    width: 25rem;
     height: auto;
     list-style: none;
     background-color: #fff;
-    padding: 3rem 1.7rem 2rem 1.7rem;
+    padding: 2rem 1.7rem 2rem 1.7rem;
     top: 2.7rem;
     z-index: 1;
 }
@@ -144,6 +144,15 @@
         margin-top: 2rem;
     }
 }
+@media only screen and (max-width: 834px){/* Ipad pro */
+    /*-----------------------
+    # SECCIÓN DEL NAVEGADOR 
+    -----------------------*/
+    .activar-drop{
+        display: block;
+        list-style: none;
+    }
+}
 @media only screen and (max-width: 768px){
     /*---------------------------
     #  SECCIÓN DE LOGO Y BUSCADOR
@@ -168,6 +177,10 @@
     }
     .item-home{
         margin: auto;
+    }
+    .activar-drop{
+        display: block;
+        list-style: none;
     }
 
 }
