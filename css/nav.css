@@ -11,7 +11,6 @@
     background-color: #4B4B4B;
     width: 60rem;
     height: 5rem;
-
     display: flex;
     justify-content:center;
     align-items: center;
@@ -103,6 +102,9 @@
 .services-items{
     z-index: 2;
 }
+.nav-movil{
+    display: none;
+}
 .drop:hover .services-items{
     background-color: var(--colorBase2);
 }
@@ -131,6 +133,10 @@
 .submenu li a:hover{
     background-color: var(--colorBase2);
 }
+.submenu li a:active{
+    background-color: var(--colorBase2);
+    
+}
 
 /*-------------------------------------------
 #        RESPONSIVE DESIGN SECTION
@@ -151,6 +157,13 @@
     .activar-drop{
         display: block;
         list-style: none;
+    }
+    .nav-movil{
+        display: inline;
+        cursor: pointer;
+    }
+    .nav-desktop{
+        display: none;
     }
 }
 @media only screen and (max-width: 768px){
