@@ -1,8 +1,8 @@
-
 /*<-----------
 #BANNER INDEX
 ------------*/
-.banner-slider{
+
+.banner-slider {
     width: 100%;
     height: 68rem;
     background-image: url(../imagen/banners/banner_index/img1.jpg);
@@ -10,43 +10,47 @@
     background-position: center;
     animation: slide 15s infinite;
 }
-@keyframes slide {
 
-    0%{
+@keyframes slide {
+    0% {
         background-image: url(../imagen/banners/banner_index/img1.jpg);
     }
-    50%{
+    50% {
         background-image: url(../imagen/banners/banner_index/img2.jpg);
     }
-    75%{
+    75% {
         background-image: url(../imagen/banners/banner_index/img3.jpg);
     }
-    100%{
+    100% {
         background-image: url(../imagen/banners/banner_index/img1.jpg);
     }
-
 }
-.slider-content{
+
+.slider-content {
     padding-top: 8rem;
     display: flex;
     flex-direction: column;
 }
-.slider-content h2{
+
+.slider-content h2 {
     color: var(--colorBase2);
     font-size: 3rem;
 }
-.slider-content span{
+
+.slider-content span {
     font-weight: 600;
     color: #fff;
     font-size: 9rem;
 }
-.slider-content h3{
+
+.slider-content h3 {
     max-width: 60rem;
     color: #fff;
     font-size: 2.7rem;
     font-weight: 100;
 }
-.slider-content a{
+
+.slider-content a {
     display: block;
     font-size: 1.8rem;
     font-weight: 900;
@@ -58,45 +62,448 @@
     background-color: var(--colorBase2);
     color: var(--colorTextoFuerte);
 }
-.slider-content a:not(hover){
+
+.slider-content a:not(hover) {
     transition: 0.3s;
 }
-.slider-content a:hover{
+
+.slider-content a:hover {
     background-color: var(--colorTextoFuerte);
     color: #fff;
     transition: 0.3s;
 }
 
+
+/*comienza codigo bryan*/
+
+
+/* --------------------------------------SECCIÓN DE SERVICIOS MAYORES */
+
+.serviciosIndex {
+    padding: 3em 0em 0em 0em;
+}
+
+.tituloServiciosIndex {
+    width: 100%;
+    color: var(--colorBase4);
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+.txtDecoracion {
+    color: var(--colorBase2);
+}
+
+.lineaseparacion {
+    height: 2px;
+    width: 75px;
+    background-color: #FFF600;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.padre {
+    width: 100%;
+    height: 500px;
+    background-color: #f8f8f6;
+    margin-top: 0em;
+    padding: 2em 0em 0em 0em;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 35px;
+}
+
+.hijo1 {
+    height: 350px;
+    width: 25%;
+    background-color: white;
+    margin: 0px 15px 0px 0px;
+    border-radius: 10px;
+}
+
+.circulo {
+    background-color: var(--colorcirculos);
+    height: 100px;
+    width: 100px;
+    margin: 25px 0px 0px 25px;
+    border-radius: 50%;
+    justify-content: center;
+}
+
+.circulo img {
+    width: 100px;
+    height: auto;
+    justify-content: center;
+}
+
+.hijo1 h2 {
+    text-align: left;
+    margin: 30px 0px 0px 25px;
+    font-size: 2rem;
+}
+
+.padre p {
+    text-align: left;
+    font-size: 1.5rem;
+    margin: 10px 0px 0px 15px;
+    color: var(--colorTexto);
+}
+
+.hijo2 {
+    height: 350px;
+    width: 25%;
+    background-color: white;
+    margin: 0px 15px 0px 0px;
+    border-radius: 10px;
+}
+
+.hijo2 h2 {
+    text-align: left;
+    margin: 25px 0px 0px 25px;
+    font-size: 2rem;
+}
+
+.hijo3 {
+    height: 350px;
+    width: 25%;
+    background-color: white;
+    margin: 0px 15px 0px 0px;
+    border-radius: 10px;
+}
+
+.hijo3 h2 {
+    text-align: left;
+    margin: 25px 0px 0px 25px;
+    font-size: 2rem;
+}
+
+.emergencynumber {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 30px;
+    background-color: var(--colorResaltante);
+    border-radius: 60px;
+    margin-bottom: 5px;
+    font-size: 1.5rem;
+    text-align: center;
+    color: white;
+    margin-top: 110px;
+}
+
+.alwaysone {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.always {
+    height: auto;
+    width: 27%;
+    padding: 15px;
+    background-color: var(--colorBase2);
+    border-radius: 40px;
+    text-align: center;
+}
+
+.always {
+    font-size: 2rem;
+    font-weight: bold;
+    color: var(--colorBase6);
+}
+
+.imagenesalways {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    justify-content: space-around;
+    margin-bottom: 100px;
+    margin-top: 20px;
+}
+
+.imagen1 {
+    width: auto;
+    -webkit-box-shadow: 30px 30px 0px 2px rgba(180, 196, 217, 0.75);
+    -moz-box-shadow: 30px 30px 0px 2px rgba(180, 196, 217, 0.75);
+    box-shadow: 30px 30px 0px 2px rgba(180, 196, 217, 0.75);
+}
+
+.imagen2 {
+    width: auto;
+    margin-top: 3em;
+    -webkit-box-shadow: -30px 30px 0px 2px rgba(39, 43, 53, 1);
+    -moz-box-shadow: -30px 30px 0px 2px rgba(39, 43, 53, 1);
+    box-shadow: -30px 30px 0px 2px rgba(39, 43, 53, 1);
+}
+
+
+/* .cajaServicio>h2 {
+    margin: 1em 1em 1em 1em;
+    font-size: 2em;
+    color: var(--colorBase);
+    text-align: start;
+} */
+
+
+/*termina codigo bryan*/
+
+
 /*-------------------------
 #RESPONSIVE DESIGN SECTION
 -------------------------*/
+
 @media only screen and (max-width: 1440px) {}
-@media only screen and (max-width: 1366px) {}
-@media only screen and (max-width: 1024px) {}
+
+@media only screen and (max-width: 1366px) {
+    /*bryan*/
+    .padre {
+        width: 100%;
+        background-color: #f8f8f6;
+        margin-top: 0em;
+        /*padding: 2em 0em 0em 0em;*/
+        margin-bottom: 20px;
+    }
+    .hijo1 {
+        height: auto;
+        width: 25%;
+        margin: 0px 15px 0px 0px;
+        border-radius: 10px;
+    }
+    .hijo2 {
+        height: auto;
+        width: 25%;
+        margin: 0px 15px 0px 0px;
+        border-radius: 10px;
+    }
+    .hijo3 {
+        height: auto;
+        width: 25%;
+        margin: 0px 15px 0px 0px;
+        border-radius: 10px;
+    }
+    .emergencynumber {
+        width: 60%;
+        margin-left: auto;
+        margin-right: auto;
+        height: 60px;
+        margin-top: 110px;
+    }
+    .always {
+        margin-top: 4rem;
+        width: 35%;
+        padding: 7px;
+        background-color: var(--colorBase2);
+        border-radius: 40px;
+        text-align: center;
+    }
+    .imagenesalways {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        justify-content: space-around;
+        margin-bottom: 100px;
+        margin-top: 20px;
+    }
+    .imagen2 {
+        margin-top: 3em;
+    }
+    /*bryan*/
+}
+
+@media only screen and (max-width: 1024px) {
+    /*codigo bryan*/
+    .cajaServicio {
+        width: 100%;
+        height: 60em;
+    }
+    .padre {
+        width: 100%;
+        height: auto;
+        background-color: #f8f8f6;
+        margin-top: 0em;
+        padding: 2em 0em 0em 0em;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    .hijo1 {
+        height: 30rem;
+        width: 30%;
+        background-color: white;
+        margin: 0px 15px 0px 0px;
+        border-radius: 10px;
+    }
+    .hijo2 {
+        height: 30rem;
+        width: 30%;
+        background-color: white;
+        margin: 0px 15px 0px 0px;
+        border-radius: 10px;
+    }
+    .hijo3 {
+        height: 30rem;
+        width: 30%;
+        background-color: white;
+        margin: 0px 15px 0px 0px;
+        border-radius: 10px;
+    }
+    .emergencynumber {
+        width: 60%;
+        margin-left: auto;
+        margin-right: auto;
+        height: 50px;
+        margin-top: 110px;
+    }
+    .always {
+        width: 35%;
+        padding: 7px;
+        background-color: var(--colorBase2);
+        border-radius: 40px;
+        text-align: center;
+    }
+    .imagenesalways {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        justify-content: space-around;
+        margin-bottom: 100px;
+        margin-top: 20px;
+    }
+    .imagen1 {
+        width: 45%;
+        margin-right: auto;
+        -webkit-box-shadow: 25px 25px 0px -1px rgba(180, 196, 217, 0.75);
+        -moz-box-shadow: 25px 25px 0px -1px rgba(180, 196, 217, 0.75);
+        box-shadow: 25px 25px 0px -1px rgba(180, 196, 217, 0.75);
+    }
+    .imagen2 {
+        width: 45%;
+        margin-left: auto;
+        margin-top: 3em;
+        -webkit-box-shadow: -25px 25px 0px -1px rgba(39, 43, 53, 1);
+        -moz-box-shadow: -25px 25px 0px -1px rgba(39, 43, 53, 1);
+        box-shadow: -25px 25px 0px -1px rgba(39, 43, 53, 1);
+    }
+    /* codigo bryan */
+}
+
 @media only screen and (max-width: 768px) {
     /* banner index */
-    .banner-slider{
+    .banner-slider {
         height: 50rem;
     }
-    .slider-content h1{
+    .slider-content h1 {
         font-size: 7rem;
     }
+    /* bryan */
+    .padre {
+        width: 100%;
+        height: auto;
+        background-color: #f8f8f6;
+        margin-top: 0em;
+        padding: 2em 0em 0em 0em;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        flex-direction: column;
+        margin-bottom: 35px;
+    }
+    .padre p {
+        text-align: left;
+        font-size: 2em;
+        margin: 10px 0px 0px 15px;
+        color: var(--colorTexto);
+    }
+    .hijo1 {
+        height: auto;
+        width: 100%;
+        background-color: var(--blanco);
+        margin: 0px 15px 0px 0px;
+        border-radius: 10px;
+    }
+    .hijo2 {
+        height: auto;
+        width: 100%;
+        background-color: var(--blanco);
+        margin: 20px 15px 0px 0px;
+        border-radius: 10px;
+    }
+    .hijo3 {
+        height: auto;
+        width: 100%;
+        background-color: var(--blanco);
+        margin: 0px 15px 0px 0px;
+        border-radius: 10px;
+    }
+    .always {
+        width: auto;
+        padding: 2px;
+        background-color: var(--colorBase2);
+        border-radius: 40px;
+    }
+    .imagenesalways {
+        width: 100%;
+        margin-bottom: 100px;
+        margin-top: 20px;
+        flex-direction: column;
+    }
+    .emergencynumber {
+        width: 70%;
+        font-size: 1.5rem;
+        margin-left: auto;
+        margin-right: auto;
+        height: 40px;
+        margin-top: 110px;
+    }
+    .alwaysone {
+        width: 100%;
+        font-size: 1.5rem;
+    }
+    .imagenesalways {
+        width: 100%;
+        margin-bottom: 100px;
+        margin-top: 20px;
+    }
+    .imagen1 {
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .imagen2 {
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    /* bryan */
 }
+
 @media only screen and (max-width: 425px) {
     /* banner index */
-    .banner-slider{
+    .banner-slider {
         height: 50rem;
     }
-    .slider-content{
+    .slider-content {
         justify-content: center;
         text-align: center;
     }
-    .slider-content h1{
+    .slider-content h1 {
         font-size: 6rem;
     }
-    .slider-content a{
+    .slider-content a {
         margin: auto;
         margin-top: 2rem;
     }
+    .emergencynumber {
+        width: 90%;
+        font-size: 1.5rem;
+        margin-left: auto;
+        margin-right: auto;
+        height: 70px;
+        margin-top: 110px;
+    }
 }
+
 @media only screen and (max-width: 375px) {}
