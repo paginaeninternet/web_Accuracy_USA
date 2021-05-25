@@ -1,68 +1,60 @@
-* {
-    margin: 0;
-    padding: 0;
-    text-decoration: none;
-    font-family: 'Roboto', sans-serif;
-}
 
-
-/* IMG DE BANNER DE LA PAGINA */
-
+/*<---------------
+#BANNER DE ABOUT 
+----------------*/
 .imgBannerAbout {
+    height: 50rem;
     background-image: url(../imagen/banners/bannerIndex.jpg);
+    background-size: cover;
+    background-position: bottom;
+    padding-top: 30rem;
 }
-
-
-/*inicia diseño de texto debajo del banner*/
-
-.general_texto {
-    margin-top: 0.2em;
-    width: 100%;
-    height: auto;
-    background-color: var(--colorBase6);
-}
-
-.potente {
-    color: var(--colorBase2);
-}
-
-.general_texto {
-    padding-top: 5px;
-    font-size: 2em;
+.imgBannerAbout div h2{
+    font-size: 4rem;
+    font-weight: 600;
     color: var(--colorBase);
 }
-
-.bs_subtitulo {
-    padding-top: 1em;
-    font-size: 1.1em;
-    text-align: center;
-    color: var(--colorTexto);
-}
-
-.informacion_nosotros {
-    max-width: 50em;
-    font-size: 0.9em;
-    text-align: center;
+.imgBannerAbout div p{
+    max-width: 70rem;
+    font-size: 2rem;
+    margin-top: 2rem;
     color: var(--colorTextoFuerte);
-    padding-bottom: 3em;
 }
 
-
-/*iamgenes debajo del texto de la empresa*/
-
+/*--------------------
+#  SECCIÓN 1
+---------------------*/
+.section-1{
+    margin-top: 5em;
+    text-align: center;
+}
+.section-1 h2{
+    font-size: 3rem;
+    color: var(--colorTextoFuerte);
+}
+.potente {
+    color: var(--colorBase5);
+}
+.section-1 p{
+    max-width: 85rem;
+    margin-top: 30rem;
+    margin: auto;
+    font-size: 1.6rem;
+    color: var(--colorTexto);
+    font-weight: 400;
+    line-height : 3rem;
+}
 .imagen_nosotros {
+    margin-top: 5rem;
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
-
-.img_nosotros {
-    width: 48%;
+.imagen_nosotros > img{
+    display: block;
+    max-width: 65rem;
+    border: 1px solid black;
     height: 40em;
-}
-
-.img_nosotros img {
-    width: 100%;
-    height: 100%;
 }
 
 
