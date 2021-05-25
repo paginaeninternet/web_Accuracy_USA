@@ -9,9 +9,12 @@
     font-family: sans-serif;
     box-sizing: border-box;
 }
-html{
-    font-size: 62.5%;/* 10px */
+
+html {
+    font-size: 62.5%;
+    /* 10px */
 }
+
 .body100 {
     width: 100%;
     height: auto;
@@ -30,6 +33,7 @@ html{
 /*--------------------
 #  PALETA DE COLORES
 --------------------*/
+
 :root {
     --colorBase: rgb(0, 53, 91);
     --colorBase2: #FFEE01;
@@ -41,6 +45,7 @@ html{
     --colorTexto: #595959;
     --colorTexto2: #9E9E9E;
     --colorTextoFuerte: #272b35;
+    --colorBackground: #434544;
 }
 
 
@@ -76,7 +81,7 @@ html{
 
 @media only screen and (max-width: 1024px) {}
 
-@media only screen and (max-width: 768px){
+@media only screen and (max-width: 768px) {
     .body {
         font-size: 9px;
         width: 95%;
