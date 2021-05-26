@@ -162,7 +162,7 @@
         display: inline;
         cursor: pointer;
     }
-    .nav-desktop{
+    .box-nav li .nav-desktop{
         display: none;
     }
 }
