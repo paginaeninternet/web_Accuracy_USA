@@ -97,7 +97,7 @@
 .lineaseparacion {
     height: 2px;
     width: 75px;
-    background-color: #FFF600;
+    background-color: #dFF600;
     margin-left: auto;
     margin-right: auto;
 }
@@ -179,17 +179,18 @@
 }
 
 .emergencynumber {
-    width: 50%;
+    width: auto;
     margin-left: auto;
     margin-right: auto;
-    height: 30px;
+    height: auto;
+    padding: 1rem;
     background-color: var(--colorResaltante);
     border-radius: 60px;
-    margin-bottom: 5px;
+    margin-bottom: 10px;
     font-size: 1.5rem;
     text-align: center;
     color: white;
-    margin-top: 110px;
+    margin-top: 100px;
 }
 
 .alwaysone {
@@ -283,11 +284,10 @@
         border-radius: 10px;
     }
     .emergencynumber {
-        width: 60%;
-        margin-left: auto;
-        margin-right: auto;
-        height: 60px;
-        margin-top: 110px;
+        padding: 1rem;
+        margin-bottom: 10px;
+        font-size: 1.5rem;
+        margin-top: 105px;
     }
     .always {
         margin-top: 4rem;
@@ -329,32 +329,31 @@
         align-items: center;
     }
     .hijo1 {
-        height: 30rem;
+        height: 35rem;
         width: 30%;
         background-color: white;
         margin: 0px 15px 0px 0px;
         border-radius: 10px;
     }
     .hijo2 {
-        height: 30rem;
+        height: 35rem;
         width: 30%;
         background-color: white;
         margin: 0px 15px 0px 0px;
         border-radius: 10px;
     }
     .hijo3 {
-        height: 30rem;
+        height: 35rem;
         width: 30%;
         background-color: white;
         margin: 0px 15px 0px 0px;
         border-radius: 10px;
     }
     .emergencynumber {
-        width: 60%;
-        margin-left: auto;
-        margin-right: auto;
-        height: 50px;
-        margin-top: 110px;
+        padding: 1rem;
+        margin-bottom: 5px;
+        font-size: 1.4rem;
+        margin-top: 125px;
     }
     .always {
         width: 35%;
@@ -370,7 +369,7 @@
         justify-content: space-between;
         justify-content: space-around;
         margin-bottom: 100px;
-        margin-top: 20px;
+        margin-top: 15px;
     }
     .imagen1 {
         width: 45%;
@@ -419,30 +418,31 @@
     }
     .hijo1 {
         height: auto;
-        width: 100%;
-        background-color: var(--blanco);
+        width: 90%;
+        background-color: white;
         margin: 0px 15px 0px 0px;
         border-radius: 10px;
     }
     .hijo2 {
         height: auto;
-        width: 100%;
-        background-color: var(--blanco);
-        margin: 20px 15px 0px 0px;
+        width: 90%;
+        background-color: white;
+        margin: 20px 15px 10px 0px;
         border-radius: 10px;
     }
     .hijo3 {
         height: auto;
-        width: 100%;
-        background-color: var(--blanco);
+        width: 90%;
+        background-color: white;
         margin: 0px 15px 0px 0px;
         border-radius: 10px;
     }
     .always {
         width: auto;
-        padding: 2px;
+        padding: 1.5rem;
         background-color: var(--colorBase2);
         border-radius: 40px;
+        text-align: center;
     }
     .imagenesalways {
         width: 100%;
@@ -451,12 +451,10 @@
         flex-direction: column;
     }
     .emergencynumber {
-        width: 70%;
-        font-size: 1.5rem;
-        margin-left: auto;
-        margin-right: auto;
-        height: 40px;
-        margin-top: 110px;
+        padding: 1rem;
+        margin-bottom: 5px;
+        font-size: 1.4rem;
+        margin-top: 125px;
     }
     .alwaysone {
         width: 100%;
