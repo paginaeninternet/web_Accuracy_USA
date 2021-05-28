@@ -65,6 +65,9 @@ html {
 ----------------------------*/
 
 @media only screen and (max-width: 1440px) {
+
+
+
     /* general configuration of structure */
     .body {
         padding-left: 5em;
