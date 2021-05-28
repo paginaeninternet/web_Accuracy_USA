@@ -73,6 +73,9 @@ html {
         padding-left: 5em;
         padding-right: 5em;
     }
+    html {
+        font-size: 50%;
+    }
 }
 
 @media only screen and (max-width: 1366px) {
