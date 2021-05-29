@@ -7,16 +7,14 @@
     <link rel="stylesheet" href="css/general.css">
     <link rel="stylesheet" href="css/nav.css">
     <link rel="stylesheet" href="css/footer.css">
+    <!-- css glider for design carousel-->
+    <link rel="stylesheet" href="css/glider.min.css">
+    <link rel="stylesheet" href="css/carousel.css">
+
     <!-- page styles -->
     <link rel="stylesheet" href="css/index.css">
 
-    <!-- Libreria efectos de la página -->
-    <script src="js/scroll-effects.js"></script>
-
     <!-- SECTION FOR GOOGLE FONTS -->
-
-    <!-- Bootstrap CSS File -->
-    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
 
     <!-- PAGE SETUP -->
     <title>AGC</title>
@@ -25,9 +23,6 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/normalize.css@8.0.1/normalize.min.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glider-js@1.7.3/glider.min.css">
-    <link rel="stylesheet" href="css/estilos.css">
 </head>
 
 <body>
@@ -154,60 +149,87 @@
 
     </section>
 
+    <section class="body100">
+        <div class="body carousel__contenedor">
+
+            <button aria-label="Anterior" class="arrow__anterior">
+                <i class="fas fa-chevron-left"></i>
+            </button>
+
+            <div class="carousel__lista">
+                <div class="carousel__elemento">
+                    <img src="imagen/imgIndex/section-2/img1.jpg" alt="">
+                </div>
+                <div class="carousel__elemento">
+                    <img src="imagen/imgIndex/section-2/img2.jpg" alt="">
+                </div>
+                <div class="carousel__elemento">
+                    <img src="imagen/imgIndex/section-2/img3.jpg" alt="">
+                </div>
+                <div class="carousel__elemento">
+                    <img src="imagen/imgIndex/section-2/img4.jpg" alt="">
+                </div>
+                <div class="carousel__elemento">
+                    <img src="imagen/imgIndex/section-2/img5.jpg" alt="">
+                </div>
+                <div class="carousel__elemento">
+                    <img src="imagen/imgIndex/section-2/img6.jpg" alt="">
+                </div>
+            </div>
+
+            <button aria-label="Siguiente" class="arrow__siguiente">
+                <i class="fas fa-chevron-right"></i>
+            </button>
+<!--             <div role="tablist" class="carousel__indicadores"></div> -->
+        </div>
+    </section>
+
+    <div class="body">
+        <h2 class="tituloServiciosIndex">OUR SERVICES </h2>
+        <div class="lineaseparacion"></div>
+    </div>
+
+    <section class="body100">
+        <div class="body carousel__contenedor2">
+
+            <button aria-label="Anterior" class="arrow__anterior2">
+                <i class="fas fa-chevron-left"></i>
+            </button>
+
+            <div class="carousel__lista2">
+                <div class="carousel__elemento2">
+                    <img src="imagen/imgIndex/section-2/img1.jpg" alt="">
+                </div>
+                <div class="carousel__elemento2">
+                    <img src="imagen/imgIndex/section-2/img2.jpg" alt="">
+                </div>
+                <div class="carousel__elemento2">
+                    <img src="imagen/imgIndex/section-2/img3.jpg" alt="">
+                </div>
+                <div class="carousel__elemento2">
+                    <img src="imagen/imgIndex/section-2/img4.jpg" alt="">
+                </div>
+                <div class="carousel__elemento2">
+                    <img src="imagen/imgIndex/section-2/img5.jpg" alt="">
+                </div>
+                <div class="carousel__elemento2">
+                    <img src="imagen/imgIndex/section-2/img6.jpg" alt="">
+                </div>
+            </div>
+
+            <button aria-label="Siguiente" class="arrow__siguiente2">
+                <i class="fas fa-chevron-right"></i>
+            </button>
+<!--             <div role="tablist" class="carousel__indicadores"></div> -->
+        </div>
+    </section>
+
     <!------------- 
         #   SECTION 2
          ------------->
     <section class="body100">
-            <div class="body contenedor">
-                <div class="carousel">
-                    <div class="carousel__contenedor">
-                        <button aria-label="Anterior" class="carousel__anterior">
-                            <i class="fas fa-chevron-left"></i>
-                        </button>
-        
-                        <div class="carousel__lista">
-
-                            <div class="carousel__elemento">
-                                <img src="imagen/imgIndex/section-2/img1.jpg" alt="Rock and Roll Hall of Fame">
-                            </div>
-
-                            <div class="carousel__elemento">
-                                <img src="imagen/imgIndex/section-2/img2.jpg" alt="Constitution Square - Tower I">
-                            </div>
-                            <div class="carousel__elemento">
-                                <img src="imagen/imgIndex/section-2/img3.jpg" alt="Empire State Building">
-                            </div>
-                            <div class="carousel__elemento">
-                                <img src="imagen/imgIndex/section-2/img4.jpg" alt="Harmony Tower">
-                            </div>
-            
-                            <div class="carousel__elemento">
-                                <img src="imagen/imgIndex/section-2/img5.jpg" alt="Empire State Building">
-                            </div>
-                            <div class="carousel__elemento">
-                                <img src="imagen/imgIndex/section-2/img6.jpg" alt="Harmony Tower">
-                            </div>
-                            <div class="carousel__elemento">
-                                <img src="imagen/imgIndex/section-2/img1.jpg" alt="Empire State Building">
-                            </div>
-                            <div class="carousel__elemento">
-                                <img src="imagen/imgIndex/section-2/img2.jpg" alt="Harmony Tower">
-                            </div>
-                        </div>
-        
-                        <button aria-label="Siguiente" class="carousel__siguiente">
-                            <i class="fas fa-chevron-right"></i>
-                        </button>
-                    </div>
-        
-                    <div role="tablist" class="carousel__indicadores"></div>
-                </div>
-            </div>
-
-        </div>
+            <div class="body "></div>
     </section>
-
-
 
     <section class="body100 alwaysone">
 
@@ -278,15 +300,17 @@
         </div>
     </footer>
 
-
-
-
     <script src="js/nav.js"></script>
-    <!-- Efectos scroll -->
-    <script src="js/scroll-effects.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/glider-js@1.7.3/glider.min.js"></script>
+
+    <!-- link para trabajar con fontaweson.com -->
     <script src="https://kit.fontawesome.com/2c36e9b7b1.js" crossorigin="anonymous"></script>
-    <script src="js/app.js"></script>
+
+    <!-- Libreria de Glider -->
+    <script src="js/glider.js"></script>
+    
+    <!-- My js -->
+    <script src="js/carousel.js"></script>
+    <script src="js/carousel2.js"></script>
 </body>
 
 </html>

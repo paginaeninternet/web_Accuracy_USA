@@ -1,0 +1,127 @@
+.carousel__contenedor{
+margin-bottom: 5rem;
+margin-top: 5rem;
+position: relative;
+}
+
+/* carousel */
+.carousel__lista{
+    overflow:hidden;
+}
+.carousel__lista2{
+    overflow:hidden;
+}
+.carousel__elemento{
+    margin: 0rem 5rem;
+    border-radius: 3rem;
+    padding: 5rem 1rem;
+    background-color:#F1F1F1;
+}
+.carousel__elemento img{
+    width: 100%;
+    height: 100%;
+}   
+/* arrows */
+.arrow__anterior,
+.arrow__siguiente{
+    position: absolute;
+    display: block;
+    border: none;
+    cursor: pointer;
+
+    width: 3rem;
+    height: 3rem;
+    background:none;
+    top: 50%;
+    z-index: 1;
+}
+.arrow__anterior{
+    left: 0rem;
+}
+.arrow__siguiente{
+    right: 0rem;
+}
+.arrow__anterior i,
+.arrow__siguiente i{
+    font-size: 3rem;
+}
+
+@media only screen and (max-width: 834px) {
+    .carousel__elemento{
+        margin: 0rem 0.5rem;
+        border-radius: 3rem;
+        padding: 5rem 1rem;
+        background-color:#F1F1F1;
+    }
+}
+@media only screen and (max-width: 768px) {
+    .carousel__elemento{
+        margin: 0rem 1rem;
+        border-radius: 3rem;
+        padding: 5rem 1rem;
+        background-color:#F1F1F1;
+    }
+}
+
+/* CSS DE CAROUSEL 2 */
+.carousel__contenedor2{
+    margin-bottom: 5rem;
+    margin-top: 5rem;
+    position: relative;
+    }
+    
+    /* carousel */
+    .carousel__lista2{
+        overflow:hidden;
+    }
+    .carousel__elemento2{
+        margin: 0rem 5rem;
+        border-radius: 3rem;
+        padding: 5rem 1rem;
+        background-color:#F1F1F1;
+    }
+    .carousel__elemento2 img{
+        width: 100%;
+        height: 100%;
+    }   
+    /* arrows */
+    .arrow__anterior2,
+    .arrow__siguiente2{
+        position: absolute;
+        display: block;
+        border: none;
+        cursor: pointer;
+    
+        width: 3rem;
+        height: 3rem;
+        background:none;
+        top: 50%;
+        z-index: 1;
+    }
+    .arrow__anterior2{
+        left: 0rem;
+    }
+    .arrow__siguiente2{
+        right: 0rem;
+    }
+    .arrow__anterior2 i,
+    .arrow__siguiente2 i{
+        font-size: 3rem;
+    }
+    
+    @media only screen and (max-width: 834px) {
+        .carousel__elemento2{
+            margin: 0rem 0.5rem;
+            border-radius: 3rem;
+            padding: 5rem 1rem;
+            background-color:#F1F1F1;
+        }
+    }
+    @media only screen and (max-width: 768px) {
+        .carousel__elemento2{
+            margin: 0rem 1rem;
+            border-radius: 3rem;
+            padding: 5rem 1rem;
+            background-color:#F1F1F1;
+        }
+    }
