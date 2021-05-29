@@ -160,30 +160,29 @@
 /* ----------------SECCIÓN DE BOTON FLOTANTE*/
 
 #cajaBotonFijo {
-    display: block;
-    font-size: 10px;
-    width: 28em;
-    height: 7em;
+    width: 28rem;
+    height: 7rem;
     background-color: var(--colorResaltante);
-    border-radius: 1em 0em 1em 0em;
+    border-radius: 1em 0em 0em 0em;
+
     position: fixed;
-    top: 60em;
+    bottom: 20em;
     right: 0em;
     z-index: 100;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
 }
 
 .icoTelefonoFlotante {
-    width: 3em;
-    float: left;
-    margin-right: 1.5em;
-    margin: 2em 1.5em 0em 1em;
+    width: 4rem;
+
 }
 
 .tituloFlotante {
-    float: left;
     color: #ffffff;
-    font-size: 3em;
-    margin-top: 0.4em;
+    font-size: 2.7rem;
     font-weight: 900;
 }
 
@@ -192,13 +191,7 @@
 #        RESPONSIVE DESIGN SECTION
 -------------------------------------------*/
 
-@media only screen and (max-width: 1366px) {
-    #cajaBotonFijo {
-        font-size: 8px;
-        top: 60em;
-    }
-}
-
+@media only screen and (max-width: 1366px) {}
 @media only screen and (max-width: 1024px) {
     /*-----------------------
     # SECCIÓN DEL NAVEGADOR 
@@ -207,7 +200,6 @@
         margin-top: 2rem;
     }
 }
-
 @media only screen and (max-width: 834px) {
     /* Ipad pro */
     /*-----------------------
@@ -258,29 +250,12 @@
         list-style: none;
     }
     /* SECCIÓN DE BOTO FLOTANTE */
-    .icoResponsive {
-        width: auto;
-        height: auto;
-        position: fixed;
-        bottom: 0px;
-        right: 0;
-        z-index: 100;
-        padding-bottom: 10px;
-        padding-right: 10px;
-    }
     #cajaBotonFijo {
-        font-size: 10px;
-        width: 7em;
-        height: 7em;
-        background-color: var(--colorResaltante);
-        border-radius: 100px;
-        position: static;
-    }
-    .icoTelefonoFlotante {
-        width: 3.5em;
-        float: left;
-        margin-right: 0em;
-        margin: 2em 1.5em 0em 1.5em;
+        width: 7rem;
+        height: 7rem;
+        border-radius: 10rem;
+        bottom: 3rem;
+        right: 3rem;
     }
     .tituloFlotante {
         display: none;

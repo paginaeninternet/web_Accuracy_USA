@@ -1,154 +1,99 @@
-.body-content {
+footer{
     width: 100%;
-    padding: 20px;
-    display: flex;
-    text-align: justify;
-    box-sizing: border-box;
-    font-size: 18px;
-    line-height: 30px;
-}
-
-.follow {
-    display: flex;
-    width: 270px;
-    height: 60px;
-    background-color: var(--colorBase2);
-    margin: -40px 0px 0px 200px;
-    float: left;
-    border-radius: 45px;
-    align-items: center;
-    justify-content: center;
-    color: var(--colorcirculos);
-}
-
-.follow h2 {
-    font-weight: bold;
-}
-
-.follow img {
-    width: 35px;
-    height: 35px;
-}
-
-.footer {
-    width: 100%;
-    background: #4B4B4B;
-    display: block;
-    /*el padding hace que se limite el espacio del footer*/
-    padding-top: 0px;
-}
-
-.contenedor-footer {
-    width: 75%;
-    margin: auto;
-    padding: 20px 10px;
-    display: flex;
-    flex-wrap: wrap;
-    box-sizing: border-box;
-    justify-content: center;
-}
-
-.footer-items {
-    width: 25%;
-    padding: 6px 10px;
-    box-sizing: border-box;
-    /*  margin: 20px 0px 0px 0px;*/
-}
-
-.footer-items>h1 {
-    padding: 10px 0;
-    font-size: 25px;
-    color: #fff;
-    text-transform: uppercase;
-}
-
-.footer-items p {
-    color: #ffffff;
-    font-size: 16px;
-    text-align: justify;
-    line-height: 25px;
-}
-
-.footer-items>h2 {
-    margin: 10px 0;
-    color: #fff;
-    font-size: 18px;
-    font-weight: lighter;
-    text-transform: uppercase;
-}
-
-.border {
-    height: 2px;
-    width: 40px;
-    background: #FFEE01;
-}
-
-.footer-items>ul {
-    list-style: none;
-    color: #fff;
-    font-size: 15px;
-    letter-spacing: 0.5px;
-}
-
-.footer-items>ul>a {
-    text-decoration: none;
-    outline: none;
-    color: #fff;
-    transition: 0.3s;
-}
-
-.footer-items>ul>a:hover {
-    color: #FFEE01;
-}
-
-.footer-items>ul>li {
-    margin: 10px 0px;
     height: auto;
+    background-color: #4B4B4B;
+}
+.content-footer{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.content-footer > div{
+    width: 34rem;
+    padding: 2rem;
 }
 
-.footer-items>li>i {
-    margin-right: 5px;
+/* sección de hijos footer */
+.item-footer-1 h3{
+    font-size: 2.5rem;
+    color: #fff;
+}
+.item-footer-1 p{
+    font-size: 1.5rem;
+    color: #fff;
+    margin-top: 2.5rem;
 }
 
-.footer-items .img {
-    padding-left: 0px;
+.item-footer-2 h3, .item-footer-3 h3, .item-footer-4 h3{
+    font-size: 2rem;
+    color: #fff;
+}
+.line-footer{
+    width: 20%;
+    height: 0.3rem;
+    background-color: var(--colorBase2);
+    margin-top: 0.5rem;
+}
+.item-footer-2 ul{
+    list-style: none;
+    margin-top: 2.5rem;
+}
+.item-footer-2 ul li{
+    color: #fff;
+    font-size: 1.5rem;
+    margin-top: 1rem;
 }
 
-.color-amarillo {
-    height: 50px;
-    width: 30%;
-    background-color: #FFEE01;
-    margin-left: auto;
+.item-footer-3 a{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+    max-width: 15rem;
+    margin-top: 2.5rem;
+    text-decoration: none;
+}
+.item-footer-3 a img{
+    width: 2.5rem;
+}
+.item-footer-3 a span{
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: 900;
 }
 
-@media screen and (max-width: 1000px) {
-    .footer-items {
-        width: 50%;
-    }
-    @media screen and (max-width: 600px) {
-        .footer-items {
-            width: 100%;
-        }
-    }
+.item-footer-4{
+    display: flex;
+    flex-direction: column;
+}
+.footer-img-logo-1{
+    width: 13rem;
+    margin-top: 2.5rem;
+}
+.footer-img-logo-2{
+    width: 8rem;
+    margin-top: 1rem;
+}
+.item-footer-4 span{
+    color: #fff;
+    font-size: 1.8rem;
+    font-weight: 900;
+    margin-top: 2.5rem;
 }
 
-@media screen and (max-width:500px) {
-    .follow {
-        width: 250px;
-        height: 60px;
-        background-color: var(--colorBase2);
-        margin: -40px 0px 0px 25px;
-        float: left;
-        border-radius: 45px;
-        align-items: center;
-        justify-content: center;
-        color: var(--colorcirculos);
-    }
-    .follow img {
-        width: 35px;
-        height: 35px;
-    }
+.line-box{
+    display: flex;
+    width: 100%;
+    flex-direction: row-reverse;
+    margin-top: 2.4rem;
+}
+.line-yellow{
+    width: 40%;
+    height: 5rem;
+    background-color: var(--colorBase2);
 }
 
+@media only screen and (max-width: 768px) {
 
-/*gris nuevo #4B4B4B*/
+}
