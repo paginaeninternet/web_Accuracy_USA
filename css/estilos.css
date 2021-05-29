@@ -1,8 +1,7 @@
 
 .contenedor {
-	max-width: 1200px;
 	width: 100%;
-	margin: auto;
+	background-color: yellow;
 }
 
 /* --- --- CONTENEDOR PRINCIPAL --- --- */
@@ -78,11 +77,10 @@
 
 .carousel__elemento {
 	text-align: center;
-}
-.carousel__elemento  p{
-	color: var(--colorTexto);
-	font-size: 1.5rem;
-	margin-top: 1rem;
+	background-color: rgb(177, 177, 177);
+	padding: 5rem 2rem;
+	margin: 0rem 1rem 0rem 1rem;
+	border-radius: 2rem;
 }
 
 .carousel__indicadores .glider-dot {
