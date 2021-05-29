@@ -1,99 +1,120 @@
-footer{
+footer {
     width: 100%;
     height: auto;
     background-color: #4B4B4B;
 }
-.content-footer{
+
+.content-footer {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
 }
-.content-footer > div{
+
+.content-footer>div {
     width: 34rem;
     padding: 2rem;
 }
 
+
 /* sección de hijos footer */
-.item-footer-1 h3{
+
+.item-footer-1 h3 {
     font-size: 2.5rem;
     color: #fff;
 }
-.item-footer-1 p{
+
+.item-footer-1 p {
     font-size: 1.5rem;
     color: #fff;
     margin-top: 2.5rem;
 }
 
-.item-footer-2 h3, .item-footer-3 h3, .item-footer-4 h3{
+.item-footer-2 h3,
+.item-footer-3 h3,
+.item-footer-4 h3 {
     font-size: 2rem;
     color: #fff;
 }
-.line-footer{
+
+.line-footer {
     width: 20%;
     height: 0.3rem;
     background-color: var(--colorBase2);
     margin-top: 0.5rem;
 }
-.item-footer-2 ul{
+
+.item-footer-2 ul {
     list-style: none;
     margin-top: 2.5rem;
 }
-.item-footer-2 ul li{
+
+.item-footer-2 ul li {
     color: #fff;
     font-size: 1.5rem;
     margin-top: 1rem;
 }
 
-.item-footer-3 a{
+.item-footer-3 a {
     display: flex;
     justify-content: space-between;
     align-items: center;
-
-
     max-width: 15rem;
     margin-top: 2.5rem;
     text-decoration: none;
 }
-.item-footer-3 a img{
+
+.item-footer-3 a img {
     width: 2.5rem;
 }
-.item-footer-3 a span{
+
+.item-footer-3 a span {
     color: #fff;
     font-size: 1.5rem;
     font-weight: 900;
 }
 
-.item-footer-4{
+.item-footer-4 {
     display: flex;
     flex-direction: column;
 }
-.footer-img-logo-1{
+
+.footer-img-logo-1 {
     width: 13rem;
     margin-top: 2.5rem;
 }
-.footer-img-logo-2{
+
+.footer-img-logo-2 {
     width: 8rem;
     margin-top: 1rem;
 }
-.item-footer-4 span{
+
+.item-footer-4 span {
     color: #fff;
     font-size: 1.8rem;
     font-weight: 900;
     margin-top: 2.5rem;
 }
 
-.line-box{
+.line-box {
     display: flex;
     width: 100%;
     flex-direction: row-reverse;
     margin-top: 2.4rem;
 }
-.line-yellow{
+
+.line-yellow {
     width: 40%;
     height: 5rem;
     background-color: var(--colorBase2);
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1440px) {}
 
+@media only screen and (max-width: 1366px) {
+    .content-footer>div {
+        width: 28rem;
+        padding: 2rem;
+    }
 }
+
+@media only screen and (max-width: 768px) {}
