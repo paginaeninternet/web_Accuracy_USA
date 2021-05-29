@@ -12,16 +12,13 @@
 
 @keyframes slide {
     0% {
-        background-image: url(../imagen/banners/banner_index/img1sintexto.jpg);
+        background-image: url(../imagen/banners/banner_index/img2.jpg);
     }
     50% {
-        background-image: url(../imagen/banners/banner_index/img2sintexto.jpg);
-    }
-    75% {
         background-image: url(../imagen/banners/banner_index/img3.jpg);
     }
     100% {
-        background-image: url(../imagen/banners/banner_index/img1sintexto.jpg);
+        background-image: url(../imagen/banners/banner_index/img1.jpg);
     }
 }
 
