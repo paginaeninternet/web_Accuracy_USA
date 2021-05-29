@@ -85,8 +85,8 @@
 ---------------------*/
 
 .box-nav {
-    max-width: 80rem;
-    margin: auto;
+    width: 100%;
+    margin-top: 3rem;
     margin-bottom: 1rem;
     list-style: none;
     display: flex;
@@ -122,15 +122,12 @@
 .nav-movil {
     display: none;
 }
-
 .drop:hover .services-items {
     background-color: var(--colorBase2);
 }
-
 .drop:hover .submenu {
     display: block;
 }
-
 .submenu {
     display: none;
     position: absolute;
@@ -142,7 +139,6 @@
     top: 2.7rem;
     z-index: 1;
 }
-
 .submenu>li>a {
     display: block;
     width: 100%;
@@ -151,7 +147,6 @@
     margin-top: 0.4rem;
     color: var(--colorTexto);
 }
-
 .submenu li a:hover {
     background-color: var(--colorBase2);
 }
@@ -159,8 +154,9 @@
 .submenu li a:active {
     background-color: var(--colorBase2);
 }
-
-
+.submenu-item-services{
+    display: none;
+}
 /* ----------------SECCIÓN DE BOTON FLOTANTE*/
 
 #cajaBotonFijo {
@@ -228,6 +224,9 @@
     .box-nav li .nav-desktop {
         display: none;
     }
+    .submenu-item-services{
+        display: block;
+    }
 }
 
 @media only screen and (max-width: 768px) {
@@ -246,7 +245,6 @@
     # SECCIÓN DEL NAVEGADOR 
     -----------------------*/
     .box-nav {
-        width: 90%;
         margin-top: 2rem;
         padding-top: 1rem;
         justify-content: center;
