@@ -1,14 +1,59 @@
+/*codigo de banners*/
+
+
+/* SECCIÒN DE MENSAJES DEL BANNER */
+
+.cajaMensajeBannerIndex {
+    width: 60%;
+    margin-top: 5em;
+    padding: 2em;
+    box-sizing: border-box;
+}
+
+.tituloBannerIndex2 {
+    width: 100%;
+    font-size: 4.5em;
+    color: var(--colorBase);
+}
+
+.parrafoBanner {
+    width: 100%;
+    font-size: 2.5em;
+    color: var(--colorTexto);
+}
+
+.botonServices {
+    width: 8em;
+    display: block;
+    margin-top: 2em;
+    padding: 0.5em;
+    background-color: #F1C40F;
+    text-align: center;
+    border-radius: 0.3em;
+    color: var(--colorBase);
+    font-size: 1.5em;
+    font-weight: 900;
+}
+
+.botonServices:hover {
+    background-color: var(--colorBase);
+    color: #ffffff;
+}
+
+
 /* IMG DE BANNER DE LA PAGINA */
 
 .imgBannerContacts {
     background-image: url(../imagen/banners/imgContact.jpg);
 }
-.contactos{
+
+.contactos {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
     margin-bottom: 10em;
 }
+
 .c_cajaIzquierda {
     width: 50%;
     overflow: hidden;
@@ -121,13 +166,43 @@
     display: none;
 }
 
-.mapa{
-        padding: 4em;
+.mapa {
+    padding: 4em;
 }
+
 
 /* Secciónd e configuración mobil */
 
 @media only screen and (max-width:767px) {
+    /* CONFIGURACIÓN GENERAL DEL BANNER */
+    .textoBannerGeneral {
+        padding: 0;
+        font-size: 8px;
+        margin-top: 10em;
+        background-color: rgba(255, 255, 255, 0.6);
+    }
+    .cajaMensajeBannerIndex {
+        width: 100%;
+        height: auto;
+        margin-top: 3em;
+        padding: 0em;
+    }
+    .tituloBannerIndex2 {
+        width: 100%;
+        font-size: 3.5em;
+        text-align: center;
+    }
+    .parrafoBanner {
+        width: 100%;
+        font-size: 20px;
+        text-align: center;
+    }
+    /*     .botonServices {
+    width: 10em;
+    display: block;
+    margin: auto;
+    margin-top: 2em;
+} */
     .c_cajaIzquierda {
         width: 100%;
         float: none;
@@ -176,7 +251,6 @@
         margin-top: 1em;
         float: right;
     }
-
     .mapa {
         display: none;
     }
@@ -185,5 +259,34 @@
         width: 100%;
         padding-bottom: 2em;
     }
-
+    /* SECCIÓN BARRA DE CONTACTO */
+    .rm_barrraContanto {
+        height: 50px;
+        position: fixed;
+        z-index: 100;
+    }
+    .tituloContacto {
+        font-size: 1.5em;
+        color: #ffffff;
+        font-weight: 900;
+        text-align: end;
+        margin-right: 0.5em;
+    }
+    .imgMenu {
+        display: block;
+    }
+    .imgBannerIndex {
+        /* CAJA DEL BANNER */
+        width: 100%;
+        height: auto;
+        padding-bottom: 2em;
+    }
+    .imgEmpresa {
+        width: 70%;
+        height: auto;
+        float: none;
+        display: block;
+        margin: auto;
+        margin-top: 6em;
+    }
 }
