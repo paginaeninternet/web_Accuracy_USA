@@ -355,6 +355,9 @@
         height: auto;
     }
     /* SECCIÓN 3 DE SEVICIOS*/
+    .s3ds {
+        flex-direction: column;
+    }
     .rm_s3ds_cajaIzquierda {
         width: 100%;
         height: auto;
@@ -375,6 +378,5 @@
         width: 100%;
         height: 20em;
         margin-top: 2em;
-        display: block;
     }
 }
