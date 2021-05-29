@@ -266,7 +266,8 @@
 /* ------- SECCIÓN DE SERVICIOS 3 */
 
 .s3ds {
-    margin-bottom: 10em;
+    margin-bottom: 0em;
+    display: inline-flex;
 }
 
 .rm_s3ds_cajaIzquierda {
