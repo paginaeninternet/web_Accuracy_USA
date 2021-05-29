@@ -26,7 +26,6 @@
 }
 
 .slider-content {
-    background-color: red;
     padding-top: 8rem;
     display: flex;
     flex-direction: column;
@@ -519,16 +518,19 @@
         height: 50rem;
     }
     .slider-content {
-        justify-content: center;
         text-align: center;
     }
-    .slider-content h1 {
-        font-size: 6rem;
+    .slider-content h2 {
+        font-size: 3rem;
+    }
+    .slider-content span{
+        font-size: 7rem;
     }
     .slider-content a {
         margin: auto;
         margin-top: 2rem;
     }
+    /*  */
     .emergencynumber {
         width: 90%;
         font-size: 1.5rem;
@@ -539,4 +541,9 @@
     }
 }
 
-@media only screen and (max-width: 375px) {}
+@media only screen and (max-width: 375px) {
+    /* Banner index */
+    .slider-content h2 {
+        font-size: 2rem;
+    }
+}
