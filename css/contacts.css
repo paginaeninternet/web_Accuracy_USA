@@ -92,6 +92,7 @@
     padding-top: 1em;
     box-sizing: border-box;
     font-size: 1.7em;
+    resize: none;
 }
 
 .botonEnviarFormulario {

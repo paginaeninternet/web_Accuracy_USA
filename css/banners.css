@@ -39,7 +39,7 @@
 
 
 /* ----------------SECCIÓN DE BOTON FLOTANTE*/
-
+/* 
 #cajaBotonFijo {
     display: block;
     font-size: 10px;
@@ -51,22 +51,22 @@
     top: 60em;
     right: 0em;
     z-index: 100;
-}
+} */
 
-.icoTelefonoFlotante {
+/* .icoTelefonoFlotante {
     width: 3.5em;
     float: left;
     margin-right: 1.5em;
     margin: 2em 1.5em 0em 1em;
-}
+} */
 
-.tituloFlotante {
+/* .tituloFlotante {
     float: left;
     color: #ffffff;
     font-size: 3.5em;
     margin-top: 0.4em;
     font-weight: 900;
-}
+} */
 
 
 /*NAV RESPONSIVE*/
